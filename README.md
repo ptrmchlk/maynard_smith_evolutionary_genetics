@@ -1,1 +1,1 @@
-# Computer Projects from Maynard Smith's Evolutionary Genetics
+# Computer projects from Maynard Smith's Evolutionary Genetics
