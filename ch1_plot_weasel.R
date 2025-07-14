@@ -13,7 +13,7 @@ plot(NULL,
   type = "n", bty = "n",
   ylim = c(0, round_up(max(df$fitness))),
   xlim = c(1, round_up(max(df$ngen))),
-  axes = F,
+  axes = FALSE,
   xlab = "", ylab = ""
 )
 box(which = "plot", lwd = 1)
