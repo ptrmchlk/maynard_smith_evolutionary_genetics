@@ -1,4 +1,5 @@
 *.bin
 *.res
 *.png
+.Rhistory
 .vscode/*
