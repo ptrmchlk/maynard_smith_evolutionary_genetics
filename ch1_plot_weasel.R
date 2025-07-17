@@ -1,4 +1,4 @@
-# Plotting the weasel by ptrmchlk
+# Plotting the weasel, PM
 df <- read.csv("weasel_results.res")
 
 round_up <- function(x) {

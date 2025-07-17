@@ -1,4 +1,4 @@
-// gentic drift, by ptrmchlk
+// Genetic drift as suggested by JMS book, by PM
 #include <cstdlib>
 #include <iostream>
 #include <fstream>

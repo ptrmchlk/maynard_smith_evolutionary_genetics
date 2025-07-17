@@ -1,4 +1,4 @@
-// Dawkins' Weasel, by ptrmchlk
+// Dawkins' Weasel as per JMS, by PM
 
 #include <cstdio>
 #include <iostream>

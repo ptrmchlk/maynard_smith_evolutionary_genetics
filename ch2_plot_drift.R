@@ -1,4 +1,4 @@
-# Plotting drift (ptrmchlk)
+# Plotting drift, PM
 df <- read.csv("drift_results.res", header = TRUE)
 
 png(filename = "drift.png",
