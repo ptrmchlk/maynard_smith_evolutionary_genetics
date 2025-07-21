@@ -1,0 +1,7 @@
+*.bin
+*.res
+*.png
+ch4/*
+ch4_class/*
+.Rhistory
+.vscode/*
