@@ -17,11 +17,14 @@ plot(NULL,
   xlab = "", ylab = ""
 )
 box(which = "plot", lwd = 1)
-axis(1, lwd = 0.0, lwd.ticks = 1, tcl = 0.2, padj = -1.5)
-axis(2, lwd = 0.0, lwd.ticks = 1, tcl = 0.2, padj = 1.5)
-mtext("Generations", 1, line = 1)
-mtext("Fitness", 2, line = 1)
-abline(h = 19, lty = 2)
+axis(1, lwd = 0.0, lwd.ticks = 1, tcl = -0.4, padj = -1)
+axis(2, lwd = 0.0, lwd.ticks = 1, tcl = -0.4, padj = 1)
+axis(3, lwd = 0.0, lwd.ticks = 1, tcl = -0.4, labels = FALSE)
+axis(4, lwd = 0.0, lwd.ticks = 1, tcl = -0.4, labels = FALSE)
+mtext("Generations", 1, line = 1.5)
+mtext("Fitness", 2, line = 1.5)
+abline(h = 19, lty = 2, lwd = 0.5)
+abline(h = 0, lty = 2 , lwd = 0.5)
 
 for (i in unique(df$nrun)) {
   lines(
